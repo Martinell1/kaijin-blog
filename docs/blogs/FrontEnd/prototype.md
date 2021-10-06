@@ -7,8 +7,6 @@ tags:
  - JS
 ---
 
-
-
 ES6中的类没有变量提升
 
 
@@ -28,6 +26,4 @@ JavaScript中每次new一个新对象，就会开辟一个内存空间，造成�
 实例对象身上的____proto____和构造函数中的prototype是同一个东西，
 
 或者说实例对象的____proto____指向构造函数中的prototype。
-
-![image-20210920210512825](C:\Users\Yinshi\AppData\Roaming\Typora\typora-user-images\image-20210920210512825.png)
 
