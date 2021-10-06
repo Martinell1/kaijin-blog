@@ -1,5 +1,5 @@
 
-
+echo "<<<<<< I am in post-receive2 >>>>>>"
 # 确保脚本抛出遇到的错误
 set -e
 
