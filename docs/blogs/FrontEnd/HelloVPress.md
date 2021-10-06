@@ -11,18 +11,10 @@ tags:
 
 :::tip
 
-测试Tip内容
+第一篇vuepress,HelloWorld!
 
 :::
 
-测试内容
 
-```java
-@Data
-class Student{
-	private int id;
-	private String name;
-	private int age;
-}
-```
+<!-- more -->
 

@@ -1,6 +1,2 @@
-<<<<<<< Updated upstream
 node_modules/
-=======
-node_modules/
-docs/.vuepress/theme/
->>>>>>> Stashed changes
+.history/
