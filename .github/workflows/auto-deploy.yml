@@ -1,0 +1,14 @@
+name: Publish page
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: auto-deploy
+        run: |
+          bash deploy.sh
