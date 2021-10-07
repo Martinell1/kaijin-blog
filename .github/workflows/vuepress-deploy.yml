@@ -2,10 +2,10 @@ name: 'github actions build and deploy gh-pages'
 on: 
   push:
     branches:
-      - main  // 基于 master 分支，如果你的分支不是这个，请切换
+      - main
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest   // 使用 ubuntu 服务器
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.1   
@@ -17,8 +17,8 @@ jobs:
           yarn run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.9  // 引用别人的部署插件
+        uses: JamesIves/github-pages-deploy-action@3.5.9
         with: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   // 这里需要设置成你的 token
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
