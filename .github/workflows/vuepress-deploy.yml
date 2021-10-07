@@ -12,7 +12,7 @@ jobs:
         with: 
           persist-credentials: false
       - name: install and build
-        run: |        // 这里执行 安装 打包
+        run: |        
           yarn install
           yarn run build
 
