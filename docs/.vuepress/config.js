@@ -1,19 +1,19 @@
 module.exports = {
-  title:'YinShi\'Stack',
-  description:null,
+  title:'YinShi\'Stack', //博客名称
+  description:null,      //博客介绍
 
-  base: '/stack/',
+  base: '/stack/',       //博客路径,默认为'/'，需要与github仓库同名
 
-  theme: 'reco',
+  theme: 'reco',         //主题
   head: [
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }], //移动端适配
+    ['link', { rel: 'icon', href: '/logo.png' }]                                                    //页面logo设置
   ],
   themeConfig: {
-    type: 'blog',
-    logo: '/logo.png',
-    authorAvatar: '/avatar.png',
-    subSidebar: 'auto',
+    type: 'blog',                            //该主题的样式，博客或者文档
+    logo: '/logo.png',                       //nav栏上的logo
+    authorAvatar: '/avatar.png',             //用户信息栏的头像
+    subSidebar: 'auto',                      //文章详情页的目录，默认开启
     nav: [
       { text: 'Home', icon:'reco-home', link: '/' },
       // { text: 'About',icon:'reco-account', link: '/about/' },
@@ -37,11 +37,11 @@ module.exports = {
         { icon: 'reco-juejin', link: 'https://juejin.cn/user/4072246801085575' }
       ]
     },
-    author: 'YinShi'
+    author: 'YinShi'      //全局配置作者信息
   },
 
-  markdownit:{
-    lineNumbers:true,
+  markdown:{
+    lineNumbers:true,     //markdown代码块是否显示行号
   }
   
 }
