@@ -291,7 +291,7 @@ vuepress的目录及说明如下
 
 1. 新建一个github仓库
 
-   ![image-20211007115653722](C:\Users\Yinshi\AppData\Roaming\Typora\typora-user-images\image-20211007115653722.png)
+   ![image-20211007115653722](https://gitee.com/ashene/pic-go/raw/master/image-20211007115653722.png)
 
    ::: warning
 
@@ -343,7 +343,7 @@ vuepress的目录及说明如下
 
 6. 前往github仓库 => Settings => Pages
 
-   ![image-20211007115538341](C:\Users\Yinshi\AppData\Roaming\Typora\typora-user-images\image-20211007115538341.png)
+   ![image-20211007115538341](https://gitee.com/ashene/pic-go/raw/master/image-20211007115538341.png)
 
    将主页修改为gh-pages目录下的`/root`，点击save。
 
@@ -363,7 +363,7 @@ vuepress的目录及说明如下
 
    - 前往github的Person access tokens
 
-   ![image-20211007120438011](C:\Users\Yinshi\AppData\Roaming\Typora\typora-user-images\image-20211007120438011.png)
+   ![image-20211007120438011](https://gitee.com/ashene/pic-go/raw/master/image-20211007120438011.png)
 
    - 点击生成token，依次填入信息
      - Note：输入vuepress的仓库名
@@ -424,9 +424,4 @@ vuepress的目录及说明如下
 
 大功告成，效果如下
 
-![image-20211007121909600](C:\Users\Yinshi\AppData\Roaming\Typora\typora-user-images\image-20211007121909600.png)
-
-
-
-
-
+![image-20211007150850005](https://gitee.com/ashene/pic-go/raw/master/image-20211007150850005.png)
