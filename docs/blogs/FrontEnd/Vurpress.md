@@ -11,7 +11,7 @@ tags:
 
 
 
-## 快速搭建vuepress项目
+# 快速搭建vuepress项目
 
 ::: warning
 
@@ -86,7 +86,7 @@ VuePress 需要 [Node.js (opens new window)](https://nodejs.org/en/)>= 8.6
 
 
 
-## 目录结构
+# 目录结构
 
 vuepress的目录及说明如下
 
@@ -110,7 +110,7 @@ vuepress的目录及说明如下
 
 
 
-## 使用主题
+# 使用主题
 
 在这里我选择的是`vuepress-theme-reco`主题，你可以访问官方文档查看更多详细的内容
 
@@ -287,7 +287,7 @@ vuepress的目录及说明如下
 
    
 
-## 部署
+# 部署
 
 1. 新建一个github仓库
 
@@ -351,7 +351,7 @@ vuepress的目录及说明如下
 
 
 
-## 自动化部署
+# 自动化部署
 
 项目虽然成功部署了，但是我们每一次push后都需要手动运行一次`deploy.sh`脚本，十分麻烦。
 
