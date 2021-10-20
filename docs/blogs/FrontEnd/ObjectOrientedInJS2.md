@@ -1,13 +1,13 @@
-​---
+---
 title: JavaScript中的面对对象（二）
-date: '2021-10-10 23:00:19'
+date: '2021-10-09 22:54:53'
 categories:
  - FrontEnd
 tags:
  - JS
+ - 对象
  - 原型/原型链
- - 继承
-​---
+---
 
 
 
