@@ -41,7 +41,7 @@ module.exports = {
 
     // 备案
     record: 'ICP 皖ICP备2021014180号',
-    recordLink: 'ICP https://beian.miit.gov.cn/',
+    recordLink: 'https://beian.miit.gov.cn/',
     // 项目开始时间，只填写年份
     startYear: '2021'
   },
