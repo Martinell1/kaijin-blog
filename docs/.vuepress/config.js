@@ -37,7 +37,13 @@ module.exports = {
         { icon: 'reco-juejin', link: 'https://juejin.cn/user/4072246801085575' }
       ]
     },
-    author: '<a href="https://beian.miit.gov.cn/">皖ICP备2021014180号-1</a>'      //全局配置作者信息
+    author: 'YinShi'      //全局配置作者信息
+
+    // 备案
+    record: 'ICP 皖ICP备2021014180号',
+    recordLink: 'ICP https://beian.miit.gov.cn/',
+    // 项目开始时间，只填写年份
+    startYear: '2021'
   },
 
   markdown:{
