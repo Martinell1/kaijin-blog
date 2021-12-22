@@ -37,7 +37,7 @@ module.exports = {
         { icon: 'reco-juejin', link: 'https://juejin.cn/user/4072246801085575' }
       ]
     },
-    author: 'YinShi'      //全局配置作者信息
+    author: 'YinShi',      //全局配置作者信息
 
     // 备案
     record: 'ICP 皖ICP备2021014180号',
