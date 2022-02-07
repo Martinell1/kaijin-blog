@@ -8,9 +8,9 @@ tags:
  - 配置
 ---
 
-# 基本配置
+## 基本配置
 
-## 初始化项目
+### 初始化项目
 
 ```shell
 npm init -y
@@ -31,7 +31,7 @@ npm install webpack webpack-cli -D
 
 
 
-## 配置路径
+### 配置路径
 
 新建path.js文件，配置src目录路径和dist目录路径并导出。
 
@@ -52,7 +52,7 @@ module.exports =  {
 
 
 
-## 配置入口
+配置入口
 
 一般为src目录下的index.js文件。
 
@@ -64,7 +64,7 @@ module.exports = {
 }
 ```
 
-## 配置模块
+### 配置模块
 
 - 配置不需要处理的模块
 
@@ -117,7 +117,7 @@ module.exports = {
 
 
 
-## 配置插件
+### 配置插件
 
 - HtmlWebpackPlugin
 
@@ -146,7 +146,7 @@ module.exports = {
 
 
 
-## 配置多入口示例
+### 配置多入口示例
 
 ```js
 const path = require('path');
@@ -178,7 +178,7 @@ module.exports = {
 
 
 
-## 配置babel
+### 配置babel
 
 ```shell
 npm install -D babel-loader @babel/core @babel/preset-env webpack
@@ -195,11 +195,11 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 
 
 
-# 开发环境
+## 开发环境
 
 新建webpack.dev.js文件
 
-## 导入公共配置
+### 导入公共配置
 
 ```shell
 npm install webpack-merge
@@ -216,7 +216,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置模块
+### 配置模块
 
 ```js
 const {merge} = require('webpack-merge')
@@ -245,7 +245,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置插件
+### 配置插件
 
 - DefinePlugin
 
@@ -274,7 +274,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置端口
+### 配置端口
 
 ```js
 const {merge} = require('webpack-merge')
@@ -297,7 +297,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置postcss
+### 配置postcss
 
 自动添加厂商前缀
 
@@ -311,9 +311,9 @@ module.exports = {
 }
 ```
 
-# 发布环境
+## 发布环境
 
-## 配置出口
+### 配置出口
 
 ```js
 const {merge} = require('webpack-merge')
@@ -332,7 +332,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置模块
+### 配置模块
 
 ```js
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -380,7 +380,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置插件
+### 配置插件
 
 ```js
 const TerserPlugin = require("terser-webpack-plugin");
@@ -412,7 +412,7 @@ module.exports = merge(webpackCommonConf,{
 
 
 
-## 配置优化
+### 配置优化
 
 ```js
 module.exports = merge(webpackCommonConf,{
