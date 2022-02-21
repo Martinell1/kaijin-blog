@@ -2,7 +2,7 @@ module.exports = {
   title:'YinShi\'Stack', //博客名称
   description:null,      //博客介绍
 
-  base: 'http://blog.kaijinx.top/',       //博客路径,默认为'/'，需要与github仓库同名
+  //base: '/http://blog.kaijinx.top/',       //博客路径,默认为'/'，需要与github仓库同名
 
   theme: 'reco',         //主题
   head: [
