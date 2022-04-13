@@ -29,20 +29,36 @@ let b = a //LHS and RHS
 
 ### eval
 
-```Mermaid
-flowchart LR
-      A([eval函数])-->B[接收一个参数]
-      B-->C{是否为字符串类型?}
-      C--是-->D[该字符串作为JavaScript代码进行编译]
-      C--否-->E[返回该参数]
-      D-->F{是否为编译成功?}
-      F--是-->G[开始执行代码]
-      F--否-->H[语法错误syntaxError]
-      G-->I{是否有返回值}
-      I--是-->J[返回值]
-      I--否-->K[返回undefined]
-
+```js
+//伪代码
+//eval函数接收一个参数
+function eval(params){
+    //判断参数类型是否为string类型
+    if(typeof params !== 'string'){
+        //参数不为string return参数
+        return params
+    }
+    //开始编译params
+    compile(params)
+    //判断是否编译成功
+    if(compile_fail){
+        //编译失败 语法错误
+        Error('syntaxError')
+    }else{
+        //开始执行代码
+        do(params)
+        //判断是否有返回值
+        if(have_return){
+            //执行成功 返回返回值
+            return 
+        }else{
+            return undefined
+        }
+    }
+}
 ```
+
+
 
 eval所声明和查询的变量在它所处的作用域范围。
 
