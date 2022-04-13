@@ -497,11 +497,12 @@ export default function xhr(config: AxiosRequestConfig): AxiosPromise {
 }
 ```
 
-简述流程
+## 手写流程
 
-![](https://s2.loli.net/2022/04/13/cgpydnPwqbxiBYM.jpg)
+![7E49010F7DCAB05159117685AAAF337F](https://s2.loli.net/2022/04/13/6iEM4VrbQcG9gOU.jpg)
 
+![14719B034BC1459CA81ADABF01D8CA3C](https://s2.loli.net/2022/04/13/sLKBwR2VaMWiEte.jpg)
 
+![B2436E717CEDA946E039B265D986A359](https://s2.loli.net/2022/04/13/JevLOCzN7dD62AE.jpg)
 
-
-
+![7E2AB173D0C836F2466195F1C77E1F6B](https://s2.loli.net/2022/04/13/olh4Us2apTFVjQk.jpg)
