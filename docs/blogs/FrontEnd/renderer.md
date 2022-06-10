@@ -343,7 +343,7 @@ const renderer = createRenderer({
 
 
 
-最后附上完整代码
+## 完整代码
 
 ```js
 function getSequence(arr){

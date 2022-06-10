@@ -702,7 +702,7 @@ function watch(source,cb,options = {}){
 }
 ```
 
-### 
+
 
 ```js
 function traverse(value,seen = new Set()){
@@ -721,8 +721,6 @@ function traverse(value,seen = new Set()){
     return value
 }
 ```
-
-
 
 
 
@@ -810,7 +808,7 @@ function proxyRefs(target){
 
 
 
-最后，附上完整代码
+## 完整代码
 
 ```js
 //当前的副作用函数
